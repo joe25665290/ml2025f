@@ -153,7 +153,7 @@
   <!-- ------------------------------------------------>
   <div class="row hw12">
     <div class="col-md-12 twenty">
-      心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。
+      這次的作業是使用 colab 來進行心臟肌肉分割的深度學習模型訓練與測試，在做這次作業的過程中遇到最大的問題是訓練時間較長，導致colab經常斷線，必須重新連線並載入之前的訓練結果，以至於花了不少時間在等待上面。這次作業讓我更了解深度學習模型的訓練過程以及如何處理實際操作中遇到的問題。
     </div>
   </div>
 
@@ -180,12 +180,12 @@
           <td>Medium baseline - 調整設定檔(AICUP_training.json)增加筆數，訓練/驗證/測試(30/5/5)筆。</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox3"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox3" checked></td>
           <td id='m3'>2</td>
           <td>Strong baseline - 使用其他模型(例如: Attn U-Net、UNETR、Swin UNETR...等)，對心臟資料進行訓練，並繳交 Colab 程式碼連結到你的 HW02 作品集</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox4" checked></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox4"></td>
           <td id='m4'>-10</td>
           <td>沒有寫100字心得</td>
         </tr>
@@ -205,13 +205,17 @@
         Medium baseline - 調整設定檔(AICUP_training.json)增加筆數，訓練/驗證/測試(30/5/5)筆。<br>
         <img class="withborder" src="./HW2_2.png" height="360">
       </div>
+      <div style="text-align: center; font-size: 20pt; color: yellow; margin-bottom: 12px;">
+        Strong baseline - 使用其他模型(例如: Attn U-Net、UNETR、Swin UNETR...等)，對心臟資料進行訓練，並繳交 Colab 程式碼連結到你的 HW02 作品集<br>
+      </div>
+      <div style="text-align: center; color: rgb(0, 255, 106);">
+        <a href="https://colab.research.google.com/drive/11mUY7qxjrPQI3BDI-a1nkxGNUurEdZ4N?usp=sharing">attention_unet</a><br>
+      <img class="withborder" src="./HW2_attention_unet.png" height="360">
+      </div>
     </div>
   </div>
 
   <!-- ------------------------------------------------>
-
-  <!-- ------------------------------------------------>
-
 
 <script>
   $(function() {
