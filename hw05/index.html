@@ -169,19 +169,19 @@
         </tr>
         <tr>
           <td rowspan="4" id="myTotal"></td>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox1"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox1" checked></td>
           <td id='m1'>4</td>
-          <td>Simple baseline - 描述</td>
+          <td>Simple baseline - 完成 baseline Colab 訓練得到訓練分數及訓練權重</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox2"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox2" checked></td>
           <td id='m2'>4</td>
-          <td>Medium baseline - 描述</td>
+          <td>Medium baseline - 調整訓練筆數、Epochs 或其他參數得到比 Simple baseline 更高的分數</td>
         </tr>
         <tr>
           <td><input type="checkbox" class="flipswitch" id="myCheckbox3"></td>
           <td id='m3'>2</td>
-          <td>Strong baseline - 描述</td>
+          <td>Strong baseline - 使用不同版本、大小模型進行訓練並繳交 Colab</td>
         </tr>
         <tr>
           <td><input type="checkbox" class="flipswitch" id="myCheckbox4" checked></td>
@@ -196,9 +196,14 @@
   <!-- ------------------------------------------------>
   <div class="row hw12 bottomrow">
     <div class="col-md-12 twenty">
-      <video id="video1" style="width:100%;max-width:100%;" controls="">
-        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-      </video>
+      <div style="text-align: center; font-size: 20pt; color: yellow; margin-bottom: 12px;">
+        Simple baseline<br>
+        <img class="withborder" src="./hw05_1.png" height="360">
+      </div>
+      <div style="text-align: center; font-size: 20pt; color: yellow; margin-bottom: 12px;">
+        Medium baseline, 調整訓練筆數、Epochs及batch size，以獲得更好的結果<br>
+        <img class="withborder" src="./hw05_2.png" height="360">
+      </div>
     </div>
   </div>
 
